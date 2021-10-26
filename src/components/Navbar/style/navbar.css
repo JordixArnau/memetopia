@@ -1,0 +1,59 @@
+.navbar {
+  width: 96%;
+  display: flex;
+  margin: 0 auto;
+  flex-direction: column;
+  font-family: "Handlee", cursive;
+  font-size: 20px;
+}
+
+.navbar-section {
+  display: flex;
+  margin-top: 15px;
+  color: white;
+  border: 3px white;
+  justify-content: center;
+  align-items: center;
+}
+
+.navbar-section-categories {
+  display: flex;
+  margin: 0 20px;
+  height: 100%;
+  width: 30%;
+  justify-content: space-evenly;
+}
+
+.navbar-section-categories a {
+  text-decoration: none;
+  color: white;
+}
+
+.navbar-section-categories span {
+  padding-left: 10px;
+}
+
+.navbar-button {
+  margin-right: 20px;
+}
+
+.navbar-button button {
+  font-size: 20px;
+  font-family: "Handlee", cursive;
+  padding: 5px 10px;
+  cursor: pointer;
+  border-radius: 5%;
+  background-color: transparent;
+  border-color: #a462d1;
+  color: #a462d1;
+  border-style: none;
+}
+
+.navbar-button button:hover {
+  background-color: #673a85;
+  color: white;
+}
+
+.searchbar {
+  width: 70%;
+}

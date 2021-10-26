@@ -1,0 +1,30 @@
+.register-back {
+  position: relative;
+  min-height: 100vh;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background-image: url("../../../assets/register_background.jpg");
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  overflow: hidden;
+  font-family: "Handlee", cursive;
+  white-space: nowrap;
+  overflow: hidden;
+  text-overflow: ellipsis;
+}
+
+.register-overlay {
+  top: 0;
+  position: fixed;
+  background-color: #a562d1b4;
+  height: 100vh;
+  width: 100vw;
+}
+
+body {
+  white-space: nowrap;
+  overflow: hidden;
+  text-overflow: ellipsis;
+}

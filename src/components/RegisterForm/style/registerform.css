@@ -1,0 +1,28 @@
+.register {
+  background-color: whitesmoke;
+  height: 60vh;
+  width: 30vw;
+  padding: 1% 6%;
+  border-radius: 5%;
+  display: flex;
+  flex-direction: column;
+  z-index: 1;
+}
+
+.register h2 {
+  color: #a462d1;
+  font-size: 30px;
+}
+
+.register-form label {
+  display: flex;
+  flex-direction: column;
+  font-size: 22px;
+  font-weight: bold;
+}
+
+.register-form input {
+  width: 50%;
+  padding: 1%;
+  margin: 10px 0;
+}

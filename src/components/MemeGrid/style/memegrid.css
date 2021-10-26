@@ -1,0 +1,19 @@
+.memes {
+  margin-top: 60px;
+  width: 100%;
+}
+
+.memes-row {
+  display: grid;
+  width: 100%;
+  grid-template-columns: repeat(4, 1fr);
+  justify-items: center;
+  margin-top: 20px;
+}
+
+.memes-row-individual {
+  background-color: white;
+  min-width: 50%;
+  height: 100px;
+  margin-bottom: 30px;
+}

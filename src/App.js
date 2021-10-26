@@ -1,17 +1,17 @@
-import React from 'react';
+import React from "react";
+import { Switch, Route } from "react-router-dom";
+
+import Home from "./pages/Home";
+import Register from "./pages/Register";
 
 function App() {
   return (
-    <div style={{ textAlign: 'center' }}>
-      <header>
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a href="https://reactjs.org" target="_blank" rel="noopener noreferrer">
-          Learn React
-        </a>
-      </header>
-    </div>
+    <>
+      <Switch>
+        <Route path="/register" exact component={Register} />
+        <Route path="/" exact component={Home} />
+      </Switch>
+    </>
   );
 }
 
