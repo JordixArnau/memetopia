@@ -1,0 +1,13 @@
+.upload-form-url {
+  display: flex;
+  justify-content: center;
+  margin-bottom: 10%;
+}
+
+.upload-form-url input {
+  width: 100%;
+}
+
+.margin-tb-20 {
+  margin: 20px 0;
+}

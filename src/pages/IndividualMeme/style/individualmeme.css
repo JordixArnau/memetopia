@@ -1,0 +1,11 @@
+.individual-meme-container {
+  background-color: whitesmoke;
+  height: 70vh;
+  width: 60vw;
+  margin: 0 auto;
+  border-radius: 15px;
+  padding: 1%;
+  display: flex;
+  justify-content: center;
+  margin-top: 1%;
+}

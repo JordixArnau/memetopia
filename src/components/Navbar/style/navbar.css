@@ -16,6 +16,10 @@
   align-items: center;
 }
 
+.navbar-info img {
+  cursor: pointer;
+}
+
 .navbar-section-categories {
   display: flex;
   margin: 0 20px;
@@ -33,11 +37,17 @@
   padding-left: 10px;
 }
 
+.navbar-category:hover {
+  cursor: pointer;
+  color: green;
+  font-weight: bold;
+}
+
 .navbar-button {
   margin-right: 20px;
 }
 
-.navbar-button button {
+.navbar button {
   font-size: 20px;
   font-family: "Handlee", cursive;
   padding: 5px 10px;
@@ -49,11 +59,64 @@
   border-style: none;
 }
 
-.navbar-button button:hover {
+.navbar button:hover {
   background-color: #673a85;
   color: white;
 }
 
+.navbar-search {
+  display: flex;
+}
+
+.navbar-search * {
+  margin: 0 10px;
+}
+
 .searchbar {
-  width: 70%;
+  width: 40%;
+}
+
+.navbar-upload-group {
+  display: flex;
+}
+
+/* Modal styles */
+
+.login-modal-overlay {
+  position: fixed;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  background-color: #a562d1be;
+}
+
+.login-modal {
+  font-family: "Handlee", cursive;
+}
+
+.login-input-group,
+.login-input-group label {
+  display: flex;
+  flex-direction: column;
+}
+
+.login-input-group input {
+  margin: 10px 0;
+  padding: 5%;
+}
+
+.login-button {
+  cursor: pointer;
+  font-family: "Handlee", cursive;
+  font-size: 18px;
+  padding: 5%;
+  border: 2px solid #673a85;
+  color: #673a85;
+  background-color: transparent;
+}
+
+.login-button:hover {
+  color: whitesmoke;
+  background-color: #673a85;
 }

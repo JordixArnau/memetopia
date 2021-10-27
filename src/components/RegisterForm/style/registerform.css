@@ -1,6 +1,6 @@
 .register {
   background-color: whitesmoke;
-  height: 60vh;
+  height: 65vh;
   width: 30vw;
   padding: 1% 6%;
   border-radius: 5%;
@@ -9,12 +9,15 @@
   z-index: 1;
 }
 
-.register h2 {
+.register h2,
+.upload h2,
+.login-modal h2 {
   color: #a462d1;
   font-size: 30px;
 }
 
-.register-form label {
+.register-form label,
+.login-modal label {
   display: flex;
   flex-direction: column;
   font-size: 22px;
@@ -25,4 +28,45 @@
   width: 50%;
   padding: 1%;
   margin: 10px 0;
+}
+
+.is-valid,
+.register-form input:valid {
+  outline-color: green;
+}
+
+.not-valid,
+.register-form input:invalid {
+  outline-color: red;
+}
+
+.input-pass-group {
+  display: flex;
+  justify-content: space-between;
+}
+
+.register-form .input-pass-group input {
+  width: 100%;
+}
+
+.input-pass-message {
+  overflow-wrap: break-word;
+  word-wrap: break-word;
+  white-space: normal;
+  font-size: small;
+}
+
+.input-button-group {
+  display: flex;
+  justify-content: space-between;
+}
+
+.input-button-group button {
+  margin-top: 20px;
+  padding: 4%;
+  border-radius: 10%;
+  color: whitesmoke;
+  background-color: #a462d1;
+  border-color: white;
+  cursor: pointer;
 }

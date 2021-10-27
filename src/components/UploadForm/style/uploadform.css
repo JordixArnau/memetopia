@@ -1,0 +1,38 @@
+.upload {
+  background-color: whitesmoke;
+  height: 70vh;
+  width: 30vw;
+  padding: 1% 6%;
+  border-radius: 5%;
+  display: flex;
+  flex-direction: column;
+  z-index: 1;
+}
+
+.upload-input {
+  display: flex;
+  justify-content: center;
+  cursor: pointer;
+}
+
+.upload-form-radio {
+  display: flex;
+  justify-content: space-between;
+  margin-top: 10px;
+}
+
+.upload-form-text {
+  display: flex;
+  flex-direction: column;
+}
+
+.upload-form-text label {
+  display: flex;
+  flex-direction: column;
+  margin-top: 10px;
+}
+
+.upload-form-text input {
+  margin-top: 10px;
+  width: 70%;
+}

@@ -12,8 +12,12 @@
 }
 
 .memes-row-individual {
-  background-color: white;
-  min-width: 50%;
-  height: 100px;
+  width: 70%;
   margin-bottom: 30px;
+}
+
+.memes-row-individual img {
+  cursor: pointer;
+  max-height: 100%;
+  max-width: 100%;
 }

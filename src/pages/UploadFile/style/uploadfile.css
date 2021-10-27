@@ -1,0 +1,15 @@
+.upload-back {
+  position: relative;
+  min-height: 100vh;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background-image: url("../../../assets/upload_background.jpg");
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  overflow: hidden;
+  font-family: "Handlee", cursive;
+  white-space: nowrap;
+  text-overflow: ellipsis;
+}
